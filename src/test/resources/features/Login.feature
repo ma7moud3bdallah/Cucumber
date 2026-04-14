@@ -8,9 +8,4 @@ Scenario: Valid Login
     | username | standard_user |
     | password | secret_sauce  |
  Then The user will be directed to the homepage
-# Examples:
-#   | username      | password     |
-#   | "standard_user" | "secret_sauce" |
-#   | "visual_user"   | "secret_sauce" |
-#   | "Mahmoud"       | "mahmoud123"   |
 
