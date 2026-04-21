@@ -2,6 +2,7 @@ Feature: Login
   As a registered user
   In order to access home page
   I want to login
+  @smoke
 Scenario Outline:
   Given The user is in the login page
   When The user enter valid "<username>" and "<password>"
